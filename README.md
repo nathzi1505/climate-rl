@@ -51,30 +51,26 @@ climate-rl/
 To set up the project environment, follow these steps:
 
 1. Clone the repository:
-   ```bash
+   ```shell
    git clone https://github.com/nathzi1505/climate-rl.git
    cd climate-rl
    ```
 
 2. Install dependencies:
    - Using Conda (recommended):
-     ```bash
+     ```shell
      conda env create -f environment.yml
      conda activate climate-rl-mres
      ```
 
 3. Install the climate RL environments:
-    ```
-    cd climate-envs/ && pip install . && cd ../
+    ```shell
+    cd climate-envs
+    pip install -e .
+    cd ..
     ```
 
-4. Replace the `BASE_DIR` location and the conda environment name:
-   ```
-   find . -type f -exec sed -i "s|/gws/nopw/j04/ai4er/users/pn341/climate-rl|$(pwd)|g" {} +
-   find . -type f -exec sed -i "s|venv|climate-rl-mres|g" {} +
-   ```
-
-5. [Optional] Download runs:
+4. [Optional] Download runs:
     ```bash
     wget https://zenodo.org/records/11960239/files/runs_2024-06-17_15-38.zip
     unzip -qq runs_2024-06-17_15-38.zip -d runs

@@ -17,7 +17,7 @@ import tyro
 from reinforce_actor import Actor
 from torch.utils.tensorboard import SummaryWriter
 
-BASE_DIR = "/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.append(BASE_DIR)
 
 from param_tune.utils.no_op_summary_writer import NoOpSummaryWriter

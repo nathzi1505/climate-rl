@@ -21,7 +21,7 @@ from trpo_actor import Actor
 from trpo_critic import Critic
 from trpo_utils import conjugate_gradient, fisher_vector_product, update_model
 
-BASE_DIR = "/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 sys.path.append(BASE_DIR)
 
 from param_tune.utils.no_op_summary_writer import NoOpSummaryWriter
