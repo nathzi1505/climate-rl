@@ -18,7 +18,7 @@ from torch.utils.tensorboard import SummaryWriter
 from tqc_actor import Actor
 from tqc_quantile_critic import QuantileCritics
 
-BASE_DIR = "/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR = "/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 sys.path.append(BASE_DIR)
 
 from param_tune.utils.no_op_summary_writer import NoOpSummaryWriter

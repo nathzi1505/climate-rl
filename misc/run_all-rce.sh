@@ -1,4 +1,4 @@
-BASE_DIR="/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR="/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 
 # source "$BASE_DIR/misc/run-rce.sh" --env_id "RadiativeConvectiveModel-v0" --tag "rce-v0-optim-L-10k"
 # source "$BASE_DIR/misc/run-rce.sh" --env_id "RadiativeConvectiveModel17-v0" --tag "rce17-v0-optim-L-10k"

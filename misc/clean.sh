@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BASE_DIR="/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR="/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 
 # Check if a command-line argument is provided
 if [ "$#" -ne 1 ]; then

@@ -1,4 +1,4 @@
-BASE_DIR="/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR="/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 
 # source "$BASE_DIR/misc/run-scbc.sh" --env_id "SimpleClimateBiasCorrection-v0" --tag "scbc-v0-optim-L-60k"
 # source "$BASE_DIR/misc/run-scbc.sh" --env_id "SimpleClimateBiasCorrection-v1" --tag "scbc-v1-optim-L-60k"

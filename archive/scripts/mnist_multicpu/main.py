@@ -10,8 +10,10 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 from torchvision.datasets import MNIST
 
-BASE_PATH = "/gws/nopw/j04/ai4er/users/pn341/climate-rl/scripts/mnist_multicpu"
-DATASET_PATH = "/gws/nopw/j04/ai4er/users/pn341/datasets/mnist"
+BASE_PATH = (
+    "/gws/ssde/j25a/ai4er/users/pn341/climate-rl/scripts/mnist_multicpu"
+)
+DATASET_PATH = "/gws/ssde/j25a/ai4er/users/pn341/datasets/mnist"
 CPU_CORES = int(os.cpu_count()) - 1
 
 

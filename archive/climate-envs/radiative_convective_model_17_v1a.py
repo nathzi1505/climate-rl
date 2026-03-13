@@ -13,7 +13,7 @@ from gymnasium import spaces
 from matplotlib.gridspec import GridSpec
 from metpy.plots import SkewT
 
-BASE_DIR = "/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR = "/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 DATASETS_DIR = f"{BASE_DIR}/datasets"
 fp = f"{DATASETS_DIR}/air.mon.ltm.1981-2010.nc"
 

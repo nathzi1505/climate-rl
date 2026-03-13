@@ -67,7 +67,7 @@ To set up the project environment, follow these steps:
 
 3. Replace the `BASE_DIR` location and the conda environment name:
    ```
-   find . -type f -exec sed -i "s|/gws/nopw/j04/ai4er/users/pn341/climate-rl|$(pwd)|g" {} +
+   find . -type f -exec sed -i "s|/gws/ssde/j25a/ai4er/users/pn341/climate-rl|$(pwd)|g" {} +
    ```
 
 4. Install the climate RL environments:

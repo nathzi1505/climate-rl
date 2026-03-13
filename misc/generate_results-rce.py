@@ -19,7 +19,7 @@ from tensorflow.core.util import event_pb2
 
 warnings.filterwarnings("ignore")
 
-BASE_DIR = "/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR = "/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 RUNS_DIR = f"{BASE_DIR}/runs"
 TABLES_DIR = f"{BASE_DIR}/results/tables/"
 IMGS_DIR = f"{BASE_DIR}/results/imgs/"

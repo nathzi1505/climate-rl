@@ -41,7 +41,7 @@ if [ -z "$ENV_ID" ]; then
 fi
 
 # 2. Define the base directory
-BASE_DIR="/gws/nopw/j04/ai4er/users/pn341/climate-rl"
+BASE_DIR="/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 
 # 3. List of algorithms
 ALGOS=("ddpg" "dpg" "td3" "reinforce" "trpo" "ppo" "sac" "avg")
