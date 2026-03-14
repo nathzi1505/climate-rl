@@ -192,3 +192,5 @@ slurm/
 # Exceptions
 !datasets/*.pkl
 !assets/*
+!.json
+!.csv

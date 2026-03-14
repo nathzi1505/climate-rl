@@ -21,8 +21,8 @@ warnings.filterwarnings("ignore")
 
 BASE_DIR = "/gws/ssde/j25a/ai4er/users/pn341/climate-rl"
 RUNS_DIR = f"{BASE_DIR}/runs"
-TABLES_DIR = f"{BASE_DIR}/results/tables/"
-IMGS_DIR = f"{BASE_DIR}/results/imgs/"
+TABLES_DIR = f"{BASE_DIR}/results/tables"
+IMGS_DIR = f"{BASE_DIR}/results/imgs"
 
 THRESHOLDS = {"rce-v0": 4.39e4, "rce17-v0": 4.37e4, "rce17-v1": 4.365e4}
 

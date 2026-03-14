@@ -1,0 +1,20 @@
+colours:
+  algo:
+    - name: DDPG
+      value: "#1f77b4"
+    - name: TQC
+      value: "#ff7f0e"
+    - name: TD3
+      value: "#2ca02c"
+    - name: SAC
+      value: "#d62728"
+    - name: DPG
+      value: "#9467bd"
+    - name: PPO
+      value: "#8c564b"
+    - name: TRPO
+      value: "#e377c2"
+    - name: AVG
+      value: "#7f7f7f"
+    - name: REINFORCE
+      value: "#17becf"
